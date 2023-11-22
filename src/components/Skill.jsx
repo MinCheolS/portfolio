@@ -112,13 +112,14 @@ const SkillContainer = styled.div`
     justify-content: center;
     
     h1 {
-        padding: 30px 0px 0px 0px;
+        padding-top: 30px;
         text-align: center;
         font-size: 50px;
         /* font-size: 3.3vw; */
         font-weight: 800;
 
         @media screen and (max-width:1023px) {
+            padding-top: 60px;
             margin-top: -5px;
         }
     }
